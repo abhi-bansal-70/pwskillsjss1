@@ -38,3 +38,7 @@ if(githubLogInToken || googleLogInToken){
 } else{
     console.log("please view your website");
 }
+
+let age = 19;
+const willYouGetDrivingLicence = false;
+(age >= 18) ? willYouGetDrivingLicence = true : willYouGetDrivingLicence = false;
